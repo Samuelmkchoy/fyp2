@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "532885379007",
+    "firebase_url": "https://fyp-game-64095-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fyp-game-64095",
+    "storage_bucket": "fyp-game-64095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532885379007:android:998db0a786ee943a3ff30a",
+        "android_client_info": {
+          "package_name": "com.example.fyp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBJgjm9RmAEeukJEOrvzxfrXEvoQbJ5I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
