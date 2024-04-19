@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:fyp2/game/hashi/inputPuzzle.dart';
 import 'package:intl/intl.dart';
 
 class AdminPage extends StatelessWidget {
@@ -46,6 +47,16 @@ class AdminPage extends StatelessWidget {
                         );
                       },
                       child: Text('Feedback Report'),
+                    ),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => InputPuzzlePage()),
+                        );
+                      },
+                      child: Text('Input Puzzle Data'),
                     ),
                   ],
                 ),
