@@ -48,6 +48,7 @@ class AdminPage extends StatelessWidget {
                       },
                       child: Text('Feedback Report'),
                     ),
+                    SizedBox(height: 10.0),
                     ElevatedButton(
                       onPressed: () {
                         Navigator.push(
